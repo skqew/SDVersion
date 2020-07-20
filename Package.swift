@@ -5,9 +5,6 @@ import PackageDescription
 
 let package = Package(
     name: "SDVersion",
-    platforms: [
-        .iOS(.v8)
-    ],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
@@ -25,8 +22,7 @@ let package = Package(
             name: "SDVersion",
             dependencies: [],
             path: "sources",
-            sources: ["SDVersion/SDiOSVersion.m", "SDVersion/SDMacVersion.m", "SDVersion/SDtvOSVersion.m",
-                      "SDVersion/SDwatchOSVersion.m"],
+            sources: ["SDVersion/SDiOSVersion.m", "SDVersion/SDMacVersion.m", "SDVersion/SDtvOSVersion.m", "SDVersion/SDwatchOSVersion.m"],
             publicHeadersPath: "SDVersion"
         ),
         .testTarget(
