@@ -7,11 +7,11 @@
 #import <TargetConditionals.h>
 #import <Foundation/Foundation.h>
 
-//typedef NS_ENUM(NSInteger, DeviceVersion) {
-//    AppleTV4          = 1,
-//    AppleTV4K         = 2,
-//    Simulator         = 0
-//};
+typedef NS_ENUM(NSInteger, DeviceVersion) {
+    AppleTV4          = 1,
+    AppleTV4K         = 2,
+    Simulator         = 0
+};
 
 @interface SDtvOSVersion : NSObject
 

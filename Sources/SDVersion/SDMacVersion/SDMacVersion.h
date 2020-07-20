@@ -7,16 +7,16 @@
 #import <TargetConditionals.h>
 #if !TARGET_OS_IOS
 #import <Cocoa/Cocoa.h>
-//typedef NS_ENUM(NSInteger, DeviceVersion) {
-//    DeviceVersionUnknown = 0,
-//    DeviceVersionIMac,
-//    DeviceVersionMacMini,
-//    DeviceVersionMacPro,
-//    DeviceVersionMacBook,
-//    DeviceVersionMacBookAir,
-//    DeviceVersionMacBookPro,
-//    DeviceVersionXserve,
-//};
+typedef NS_ENUM(NSInteger, DeviceVersion) {
+    DeviceVersionUnknown = 0,
+    DeviceVersionIMac,
+    DeviceVersionMacMini,
+    DeviceVersionMacPro,
+    DeviceVersionMacBook,
+    DeviceVersionMacBookAir,
+    DeviceVersionMacBookPro,
+    DeviceVersionXserve,
+};
 
 typedef NS_ENUM(NSInteger, DeviceSize) {
     UnknownSize = 0,
