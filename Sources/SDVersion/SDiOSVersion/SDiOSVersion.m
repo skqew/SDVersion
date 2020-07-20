@@ -6,9 +6,12 @@
 //
 
 #import "SDiOSVersion.h"
-#import <CoreGraphics/CoreGraphics.h>
-#import <UIKit/UIKit.h>
+#import <CoreGraphics/CoreGraphics.h>]
+#import <TargetConditionals.h>
 #import <sys/utsname.h>
+
+#if !TARGET_OS_OSX
+#import <UIKit/UIKit.h>
 
 @implementation SDiOSVersion
 
@@ -252,3 +255,4 @@
 }
 
 @end
+#endif

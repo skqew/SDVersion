@@ -4,7 +4,8 @@
 //
 //  Copyright (c) 2015 Sebastian Dobrincu & Tom Baranes. All rights reserved.
 //
-
+#import <TargetConditionals.h>
+#if !TARGET_OS_IOS
 #import <Cocoa/Cocoa.h>
 
 typedef NS_ENUM(NSInteger, DeviceVersion) {
@@ -54,3 +55,4 @@ typedef NS_ENUM(NSInteger, DeviceScreenResolution) {
 + (BOOL)versionLessThanOrEqualTo:(NSString *)version;
 
 @end
+#endif

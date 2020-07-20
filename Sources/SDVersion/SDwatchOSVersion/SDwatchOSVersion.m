@@ -4,7 +4,8 @@
 //
 //  Copyright © 2016 Sebastian Dobrincu. All rights reserved.
 //
-
+#import <TargetConditionals.h>
+#if !(TARGET_OS_IOS) && !(TARGET_OS_OSX)
 #import "SDwatchOSVersion.h"
 #import <sys/utsname.h>
 
@@ -118,3 +119,4 @@
 }
 
 @end
+#endif

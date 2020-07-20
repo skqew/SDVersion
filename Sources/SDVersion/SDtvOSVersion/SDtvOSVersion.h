@@ -4,7 +4,7 @@
 //
 //  Copyright (c) 2016 Sebastian Dobrincu. All rights reserved.
 //
-
+#import <TargetConditionals.h>
 #import <Foundation/Foundation.h>
 
 typedef NS_ENUM(NSInteger, DeviceVersion) {

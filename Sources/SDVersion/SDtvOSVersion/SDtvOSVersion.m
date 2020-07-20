@@ -4,10 +4,11 @@
 //
 //  Copyright (c) 2016 Sebastian Dobrincu. All rights reserved.
 //
-
+#import <TargetConditionals.h>
 #import "SDtvOSVersion.h"
 
 #import <CoreGraphics/CoreGraphics.h>
+#if !(TARGET_OS_IOS) && !(TARGET_OS_OSX)
 #import <UIKit/UIKit.h>
 #import <sys/utsname.h>
 
@@ -85,3 +86,4 @@
 }
 
 @end
+#endif

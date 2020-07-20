@@ -4,7 +4,8 @@
 //
 //  Copyright (c) 2015 Sebastian Dobrincu & Tom Baranes. All rights reserved.
 //
-
+#import <TargetConditionals.h>
+#if !TARGET_OS_IOS
 #include <stdlib.h>
 #include <stdio.h>
 #include <sys/types.h>
@@ -210,3 +211,4 @@ static NSString * const SDMacResolution  = @"SDMacResolution";
 
 
 @end
+#endif
