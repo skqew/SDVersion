@@ -20,10 +20,12 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "SDVersion",
-            path: "Sources",
-            exclude: [],
+            dependencies: [],
+            path: "sources",
             sources: ["SDVersion"],
-            publicHeadersPath: "SDVersion"
+            cSettings: [
+                .headerSearchPath("SDVersion")
+            ]
         ),
         .testTarget(
             name: "SDVersionTests",
