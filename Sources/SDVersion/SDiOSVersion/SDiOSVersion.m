@@ -6,7 +6,7 @@
 //
 
 #import "SDiOSVersion.h"
-#import <CoreGraphics/CoreGraphics.h>]
+#import <CoreGraphics/CoreGraphics.h>
 #import <TargetConditionals.h>
 #import <sys/utsname.h>
 
