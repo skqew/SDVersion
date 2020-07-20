@@ -7,7 +7,7 @@
 
 #ifndef SDVersion_h
 #define SDVersion_h
-
+/*
 #if TARGET_OS_IOS
 	#import "SDiOSVersion.h"
 	#define SDVersion SDiOSVersion
@@ -21,5 +21,10 @@
     #import "SDMacVersion.h"
     #define SDVersion SDMacVersion
 #endif
+*/
+#import "SDiOSVersion.h"
+#import "SDwatchOSVersion.h"
+#import "SDtvOSVersion.h"
+#import "SDMacVersion.h"
 
 #endif
