@@ -4,6 +4,10 @@
 //
 //  Copyright (c) 2016 Sebastian Dobrincu. All rights reserved.
 //
+#import "SDiOSVersion.h"
+#import "SDwatchOSVersion.h"
+#import "SDtvOSVersion.h"
+#import "SDMacVersion.h"
 
 #ifndef SDVersion_h
 #define SDVersion_h
@@ -22,9 +26,6 @@
     #define SDVersion SDMacVersion
 #endif
 */
-#import "SDiOSVersion.h"
-#import "SDwatchOSVersion.h"
-#import "SDtvOSVersion.h"
-#import "SDMacVersion.h"
+
 
 #endif
