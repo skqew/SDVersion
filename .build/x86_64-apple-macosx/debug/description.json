@@ -1,0 +1,25 @@
+{
+  "allExecutables" : [
+
+  ],
+  "builtTestProducts" : [
+    {
+      "packageName" : "SDVersion",
+      "productName" : "SDVersionPackageTests",
+      "testBinary" : "\/Users\/park-eunji\/Desktop\/SDVersion\/.build\/x86_64-apple-macosx\/debug\/SDVersionPackageTests.xctest\/Contents\/MacOS\/SDVersionPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "rootExecutables" : [
+
+  ],
+  "swiftTargetMap" : {
+    "C.SDVersion-debug.module" : "SDVersion",
+    "C.SDVersionTests-debug.module" : "SDVersionTests"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

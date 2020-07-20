@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/park-eunji/Desktop/SDVersion/.build/x86_64-apple-macosx/debug/SDVersion.build/master.swiftdeps"
+  },
+  "/Users/park-eunji/Desktop/SDVersion/Sources/SDVersion/SDVersion.swift": {
+    "dependencies": "/Users/park-eunji/Desktop/SDVersion/.build/x86_64-apple-macosx/debug/SDVersion.build/SDVersion.d",
+    "object": "/Users/park-eunji/Desktop/SDVersion/.build/x86_64-apple-macosx/debug/SDVersion.build/SDVersion.swift.o",
+    "swiftmodule": "/Users/park-eunji/Desktop/SDVersion/.build/x86_64-apple-macosx/debug/SDVersion.build/SDVersion~partial.swiftmodule",
+    "swift-dependencies": "/Users/park-eunji/Desktop/SDVersion/.build/x86_64-apple-macosx/debug/SDVersion.build/SDVersion.swiftdeps"
+  }
+}

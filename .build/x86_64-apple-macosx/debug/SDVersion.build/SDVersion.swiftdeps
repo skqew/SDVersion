@@ -1,0 +1,20 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SDVersion"
+provides-nominal:
+- "9SDVersionAAV"
+provides-member:
+- ["9SDVersionAAV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "SDVersion"
+- "StringLiteralType"
+depends-member:
+- ["9SDVersionAAV", "init"]
+- ["9SDVersionAAV", "text"]
+depends-nominal:
+- "9SDVersionAAV"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/park-eunji/Desktop/SDVersion/.build/x86_64-apple-macosx/debug/SDVersion.build/module.modulemap"
+interface-hash: "21252ebe9c2381d11ff9acfb732d23c3"

@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "b7d4991de0d663f8d59fd7dd32a7ef12"
+build_time: [1595211944, 610266000]
+inputs:
+  "/Users/park-eunji/Desktop/SDVersion/Tests/SDVersionTests/SDVersionTests.swift": [1595211925, 946181635]
+  "/Users/park-eunji/Desktop/SDVersion/Tests/SDVersionTests/XCTestManifests.swift": [1595211925, 946463025]

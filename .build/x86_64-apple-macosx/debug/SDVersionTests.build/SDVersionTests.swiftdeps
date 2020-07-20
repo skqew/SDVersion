@@ -1,0 +1,121 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SDVersionTests"
+provides-nominal:
+- "14SDVersionTestsAAC"
+provides-member:
+- ["14SDVersionTestsAAC", ""]
+provides-dynamic-lookup:
+- "allTests"
+- "testExample"
+depends-top-level:
+- !private "SDVersion"
+- "SDVersionTests"
+- "StringLiteralType"
+- !private "XCTAssertEqual"
+- "XCTestCase"
+depends-member:
+- !private ["s7CVarArgP", "SDVersion"]
+- !private ["s7CVarArgP", "XCTAssertEqual"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "testExample"]
+- !private ["s28CustomDebugStringConvertibleP", "SDVersion"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertEqual"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "testExample"]
+- !private ["s23CustomStringConvertibleP", "SDVersion"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertEqual"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "testExample"]
+- !private ["SQ", "SDVersion"]
+- !private ["SQ", "XCTAssertEqual"]
+- ["SQ", ""]
+- ["SQ", "testExample"]
+- !private ["SH", "SDVersion"]
+- !private ["SH", "XCTAssertEqual"]
+- ["SH", ""]
+- ["SH", "testExample"]
+- !private ["So8NSObjectC", "SDVersion"]
+- !private ["So8NSObjectC", "XCTAssertEqual"]
+- ["So8NSObjectC", "allTests"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "testExample"]
+- !private ["So8NSObjectP", "SDVersion"]
+- !private ["So8NSObjectP", "XCTAssertEqual"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "testExample"]
+- !private ["9SDVersionAAV", "init"]
+- !private ["9SDVersionAAV", "text"]
+- !private ["14SDVersionTestsAAC", "SDVersion"]
+- !private ["14SDVersionTestsAAC", "XCTAssertEqual"]
+- ["14SDVersionTestsAAC", "allTests"]
+- ["14SDVersionTestsAAC", "deinit"]
+- ["14SDVersionTestsAAC", "init"]
+- ["14SDVersionTestsAAC", "testExample"]
+- !private ["So11XCTActivityP", "SDVersion"]
+- !private ["So11XCTActivityP", "XCTAssertEqual"]
+- ["So11XCTActivityP", ""]
+- ["So11XCTActivityP", "testExample"]
+- !private ["So17XCTWaiterDelegateP", "SDVersion"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertEqual"]
+- ["So17XCTWaiterDelegateP", ""]
+- ["So17XCTWaiterDelegateP", "testExample"]
+- !private ["So6XCTestC", "SDVersion"]
+- !private ["So6XCTestC", "XCTAssertEqual"]
+- ["So6XCTestC", "allTests"]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "testExample"]
+- !private ["So10XCTestCaseC", "SDVersion"]
+- !private ["So10XCTestCaseC", "XCTAssertEqual"]
+- ["So10XCTestCaseC", ""]
+- ["So10XCTestCaseC", "allTests"]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "testExample"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SDVersion"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertEqual"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "testExample"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SDVersion"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XCTAssertEqual"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testExample"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "9SDVersionAAV"
+- "14SDVersionTestsAAC"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/park-eunji/Desktop/SDVersion/.build/x86_64-apple-macosx/debug/SDVersion.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/XCTest.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/park-eunji/Desktop/SDVersion/.build/x86_64-apple-macosx/debug/SDVersion.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0423ffbd7b94ea5af8dc96565bc1714d"

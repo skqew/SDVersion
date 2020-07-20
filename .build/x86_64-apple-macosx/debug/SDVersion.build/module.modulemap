@@ -1,0 +1,4 @@
+module SDVersion {
+    header "/Users/park-eunji/Desktop/SDVersion/.build/x86_64-apple-macosx/debug/SDVersion.build/SDVersion-Swift.h"
+    requires objc
+}

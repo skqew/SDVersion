@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "9e9ff66fc79b3508f3de8663e3710f04"
+build_time: [1595211935, 123631000]
+inputs:
+  "/Users/park-eunji/Desktop/SDVersion/Sources/SDVersion/SDVersion.swift": [1595211925, 945309364]

@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/park-eunji/Desktop/SDVersion/.build/x86_64-apple-macosx/debug/SDVersionTests.build/master.swiftdeps"
+  },
+  "/Users/park-eunji/Desktop/SDVersion/Tests/SDVersionTests/SDVersionTests.swift": {
+    "dependencies": "/Users/park-eunji/Desktop/SDVersion/.build/x86_64-apple-macosx/debug/SDVersionTests.build/SDVersionTests.d",
+    "object": "/Users/park-eunji/Desktop/SDVersion/.build/x86_64-apple-macosx/debug/SDVersionTests.build/SDVersionTests.swift.o",
+    "swiftmodule": "/Users/park-eunji/Desktop/SDVersion/.build/x86_64-apple-macosx/debug/SDVersionTests.build/SDVersionTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/park-eunji/Desktop/SDVersion/.build/x86_64-apple-macosx/debug/SDVersionTests.build/SDVersionTests.swiftdeps"
+  },
+  "/Users/park-eunji/Desktop/SDVersion/Tests/SDVersionTests/XCTestManifests.swift": {
+    "dependencies": "/Users/park-eunji/Desktop/SDVersion/.build/x86_64-apple-macosx/debug/SDVersionTests.build/XCTestManifests.d",
+    "object": "/Users/park-eunji/Desktop/SDVersion/.build/x86_64-apple-macosx/debug/SDVersionTests.build/XCTestManifests.swift.o",
+    "swiftmodule": "/Users/park-eunji/Desktop/SDVersion/.build/x86_64-apple-macosx/debug/SDVersionTests.build/XCTestManifests~partial.swiftmodule",
+    "swift-dependencies": "/Users/park-eunji/Desktop/SDVersion/.build/x86_64-apple-macosx/debug/SDVersionTests.build/XCTestManifests.swiftdeps"
+  }
+}
