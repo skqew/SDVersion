@@ -24,7 +24,7 @@ let package = Package(
             path: "sources",
             sources: ["SDVersion"],
             cSettings: [
-                .headerSearchPath("SDVersion")
+                .headerSearchPath("SDiOSVersion")
             ]
         ),
         .testTarget(
