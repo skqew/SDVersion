@@ -25,8 +25,7 @@ let package = Package(
             name: "SDVersion",
             dependencies: [],
             path: "sources",
-            sources: ["SDVersion"],
-            cSettings: [.headerSearchPath("SDVersion")]
+            sources: ["SDVersion"]
         ),
         .testTarget(
             name: "SDVersionTests",
