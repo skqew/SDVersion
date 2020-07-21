@@ -22,7 +22,7 @@ let package = Package(
             name: "SDVersion",
             dependencies: [],
             path: "sources",
-            sources: ["SDVersion/SDiOSVersion", "SDVersion/SDMacVersion"],
+            sources: ["SDVersion/SDiOSVersion"],
             publicHeadersPath: "SDVersion/SDiOSVersion"),
         .testTarget(
             name: "SDVersionTests",
