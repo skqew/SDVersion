@@ -25,7 +25,7 @@ let package = Package(
             name: "SDVersion",
             dependencies: [],
             path: "sources",
-            sources: ["SDVersion/SDiOSVersion/SDiOSVersion.m", "SDVersion/SDMacVersion/SDMacVersion.m", "SDVersion/SDtvOSVersion/SDtvOSVersion.m", "SDVersion/SDwatchOSVersion/SDwatchOSVersion.m"],
+            sources: ["SDVersion/SDiOSVersion.m", "SDVersion/SDMacVersion.m", "SDVersion/SDtvOSVersion.m", "SDVersion/SDwatchOSVersion.m"],
             publicHeadersPath: "SDVersion"
         ),
         .testTarget(
