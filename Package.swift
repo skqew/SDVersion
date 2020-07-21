@@ -20,7 +20,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "SDVersion",
-            path: "Sources",
+            path: "sources",
             exclude: [],
             sources: ["SDVersion/SDiOSVersion.m", "SDVersion/SDMacVersion.m", "SDVersion/SDtvOSVersion.m", "SDVersion/SDwatchOSVersion.m"],
             publicHeadersPath: "SDVersion"
