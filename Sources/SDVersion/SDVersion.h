@@ -8,7 +8,6 @@
 #ifndef SDVersion_h
 #define SDVersion_h
 
-
 #if TARGET_OS_IOS
 	#import "SDiOSVersion.h"
 	#define SDVersion SDiOSVersion
