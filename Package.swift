@@ -23,7 +23,7 @@ let package = Package(
             path: "Sources",
             exclude: [],
             sources: ["SDVersion/SDiOSVersion.m", "SDVersion/SDMacVersion.m", "SDVersion/SDtvOSVersion.m", "SDVersion/SDwatchOSVersion.m"],
-            publicHeadersPath: ""
+            publicHeadersPath: "SDVersion"
         ),
         .testTarget(
             name: "SDVersionTests",
