@@ -10,6 +10,9 @@ let package = Package(
         .library(
             name: "SDVersion",
             targets: ["SDVersion"]),
+        .library(
+            name: "SDtestVersion",
+            targets: ["SDVersion"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
