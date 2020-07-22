@@ -11,7 +11,7 @@ let package = Package(
             name: "SDVersion",
             targets: ["SDVersion"]),
             .library(
-            name: "SDtestttttVersion",
+            name: "SDtestVersion",
             targets: ["SDtestVersion"]),
     ],
     dependencies: [
