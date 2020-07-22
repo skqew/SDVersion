@@ -27,5 +27,11 @@ let package = Package(
         .testTarget(
             name: "SDVersionTests",
             dependencies: ["SDVersion"]),
+        .target(
+        name: "SDtestVersion",
+        dependencies: [],
+        path: "Sources_iOS",
+        sources: ["SDVersion/SDiOSVersion"],
+        publicHeadersPath: "SDVersion/SDiOSVersion"),
     ]
 )
