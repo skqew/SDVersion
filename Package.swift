@@ -12,7 +12,7 @@ let package = Package(
             targets: ["SDVersion"]),
         .library(
             name: "SDtestVersion",
-            targets: ["SDVersion"]),
+            targets: ["SDtestVersion"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
