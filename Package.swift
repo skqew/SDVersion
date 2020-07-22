@@ -32,8 +32,8 @@ let package = Package(
             name: "SDtestVersion",
             dependencies: [],
             path: "sources_ios",
-            sources: ["SDVersion/SDMacVersion"],
-            publicHeadersPath: "SDVersion/SDMacVersion"),
+            sources: ["SDVersion/SDiOSVersion"],
+            publicHeadersPath: "SDVersion/SDiOSVersion"),
         
         .testTarget(
             name: "SDVersionTests",
