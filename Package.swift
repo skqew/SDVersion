@@ -10,9 +10,9 @@ let package = Package(
         .library(
             name: "SDVersion",
             targets: ["SDVersion"]),
-        .library(
-            name: "SDtestVersion",
-            targets: ["SDtestVersion"]),
+//        .library(
+//            name: "SDtestVersion",
+//            targets: ["SDtestVersion"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -27,14 +27,17 @@ let package = Package(
             path: "sources",
             sources: ["SDVersion/SDiOSVersion"],
             publicHeadersPath: "SDVersion/SDiOSVersion"),
+        
+        .target(
+            name: "SDtestVersion",
+            dependencies: [],
+            path: "sources_ios",
+            sources: ["SDVersion/SDMacVersion"],
+            publicHeadersPath: "SDVersion/SDMacVersion"),
+        
         .testTarget(
             name: "SDVersionTests",
             dependencies: ["SDVersion"]),
-        .target(
-        name: "SDtestVersion",
-        dependencies: [],
-        path: "Sources_iOS",
-        sources: ["SDVersion/SDiOSVersion"],
-        publicHeadersPath: "SDVersion/SDiOSVersion"),
+
     ]
 )
